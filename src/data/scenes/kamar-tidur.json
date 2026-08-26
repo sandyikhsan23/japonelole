@@ -1,0 +1,74 @@
+{
+  "id": "kamar-tidur",
+  "title": "Kamar Tidur",
+  "titleJa": "寝室",
+  "level": 2,
+  "category": "dalam-rumah",
+  "description": "Sebutkan nama benda-benda di kamar tidur dalam bahasa Jepang untuk memberi warna pada ruangan.",
+  "objects": [
+    {
+      "id": "jendela",
+      "kanji": "窓",
+      "hiragana": "まど",
+      "romaji": "mado",
+      "meaning": "jendela",
+      "x": 68, "y": 5, "w": 24, "h": 16
+    },
+    {
+      "id": "tempat_tidur",
+      "kanji": "ベッド",
+      "hiragana": "べっど",
+      "romaji": "beddo",
+      "meaning": "tempat tidur",
+      "x": 6, "y": 30, "w": 36, "h": 20
+    },
+    {
+      "id": "bantal",
+      "kanji": "枕",
+      "hiragana": "まくら",
+      "romaji": "makura",
+      "meaning": "bantal",
+      "x": 9, "y": 32, "w": 11, "h": 8
+    },
+    {
+      "id": "lemari",
+      "kanji": "タンス",
+      "hiragana": "たんす",
+      "romaji": "tansu",
+      "meaning": "lemari pakaian",
+      "x": 4, "y": 4, "w": 16, "h": 26
+    },
+    {
+      "id": "meja_belajar",
+      "kanji": "机",
+      "hiragana": "つくえ",
+      "romaji": "tsukue",
+      "meaning": "meja belajar",
+      "x": 64, "y": 36, "w": 22, "h": 12
+    },
+    {
+      "id": "lampu",
+      "kanji": "電気スタンド",
+      "hiragana": "でんきすたんど",
+      "romaji": "denki sutando",
+      "meaning": "lampu meja",
+      "x": 67, "y": 24, "w": 7, "h": 11
+    },
+    {
+      "id": "kursi",
+      "kanji": "椅子",
+      "hiragana": "いす",
+      "romaji": "isu",
+      "meaning": "kursi",
+      "x": 66, "y": 46, "w": 12, "h": 11
+    },
+    {
+      "id": "karpet",
+      "kanji": "カーペット",
+      "hiragana": "かーぺっと",
+      "romaji": "kaapetto",
+      "meaning": "karpet",
+      "x": 26, "y": 47, "w": 34, "h": 9
+    }
+  ]
+}

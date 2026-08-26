@@ -1,0 +1,66 @@
+{
+  "id": "jalan-raya",
+  "title": "Jalan Raya",
+  "titleJa": "道路",
+  "level": 5,
+  "category": "publik",
+  "description": "Sebutkan nama benda-benda di jalan raya dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "lampu_lalu_lintas",
+      "kanji": "信号",
+      "hiragana": "しんごう",
+      "romaji": "shingou",
+      "meaning": "lampu lalu lintas",
+      "x": 2, "y": 2, "w": 8, "h": 38
+    },
+    {
+      "id": "zebra_cross",
+      "kanji": "横断歩道",
+      "hiragana": "おうだんほどう",
+      "romaji": "oudanhodou",
+      "meaning": "zebra cross",
+      "x": 40, "y": 2, "w": 16, "h": 38
+    },
+    {
+      "id": "motor",
+      "kanji": "バイク",
+      "hiragana": "ばいく",
+      "romaji": "baiku",
+      "meaning": "motor",
+      "x": 14, "y": 22, "w": 16, "h": 10
+    },
+    {
+      "id": "mobil",
+      "kanji": "車",
+      "hiragana": "くるま",
+      "romaji": "kuruma",
+      "meaning": "mobil",
+      "x": 60, "y": 6, "w": 26, "h": 12
+    },
+    {
+      "id": "bus",
+      "kanji": "バス",
+      "hiragana": "ばす",
+      "romaji": "basu",
+      "meaning": "bus",
+      "x": 60, "y": 22, "w": 34, "h": 16
+    },
+    {
+      "id": "trotoar",
+      "kanji": "歩道",
+      "hiragana": "ほどう",
+      "romaji": "hodou",
+      "meaning": "trotoar",
+      "x": 2, "y": 42, "w": 96, "h": 8
+    },
+    {
+      "id": "halte_bus",
+      "kanji": "バス停",
+      "hiragana": "ばすてい",
+      "romaji": "basutei",
+      "meaning": "halte bus",
+      "x": 76, "y": 30, "w": 20, "h": 20
+    }
+  ]
+}

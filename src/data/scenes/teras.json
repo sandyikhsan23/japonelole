@@ -1,0 +1,58 @@
+{
+  "id": "teras",
+  "title": "Teras",
+  "titleJa": "テラス",
+  "level": 4,
+  "category": "luar-rumah",
+  "description": "Sebutkan nama benda-benda di teras rumah dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "pintu_depan",
+      "kanji": "ドア",
+      "hiragana": "どあ",
+      "romaji": "doa",
+      "meaning": "pintu depan",
+      "x": 40, "y": 2, "w": 20, "h": 30
+    },
+    {
+      "id": "lampu_teras",
+      "kanji": "明かり",
+      "hiragana": "あかり",
+      "romaji": "akari",
+      "meaning": "lampu teras",
+      "x": 64, "y": 4, "w": 8, "h": 10
+    },
+    {
+      "id": "kursi_teras",
+      "kanji": "椅子",
+      "hiragana": "いす",
+      "romaji": "isu",
+      "meaning": "kursi teras",
+      "x": 6, "y": 30, "w": 16, "h": 20
+    },
+    {
+      "id": "meja_teras",
+      "kanji": "テーブル",
+      "hiragana": "てーぶる",
+      "romaji": "teeburu",
+      "meaning": "meja teras",
+      "x": 24, "y": 36, "w": 14, "h": 12
+    },
+    {
+      "id": "tanaman_pot",
+      "kanji": "鉢植え",
+      "hiragana": "はちうえ",
+      "romaji": "hachiue",
+      "meaning": "tanaman pot",
+      "x": 80, "y": 26, "w": 14, "h": 24
+    },
+    {
+      "id": "keset",
+      "kanji": "マット",
+      "hiragana": "まっと",
+      "romaji": "matto",
+      "meaning": "keset",
+      "x": 38, "y": 44, "w": 22, "h": 8
+    }
+  ]
+}

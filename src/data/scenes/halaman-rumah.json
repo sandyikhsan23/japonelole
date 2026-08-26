@@ -1,0 +1,58 @@
+{
+  "id": "halaman-rumah",
+  "title": "Halaman Rumah",
+  "titleJa": "庭",
+  "level": 4,
+  "category": "luar-rumah",
+  "description": "Sebutkan nama benda-benda di halaman rumah dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "rumput",
+      "kanji": "芝生",
+      "hiragana": "しばふ",
+      "romaji": "shibafu",
+      "meaning": "rumput",
+      "x": 2, "y": 34, "w": 96, "h": 24
+    },
+    {
+      "id": "pagar",
+      "kanji": "塀",
+      "hiragana": "へい",
+      "romaji": "hei",
+      "meaning": "pagar",
+      "x": 2, "y": 2, "w": 96, "h": 8
+    },
+    {
+      "id": "pohon",
+      "kanji": "木",
+      "hiragana": "き",
+      "romaji": "ki",
+      "meaning": "pohon",
+      "x": 6, "y": 10, "w": 20, "h": 30
+    },
+    {
+      "id": "bunga",
+      "kanji": "花",
+      "hiragana": "はな",
+      "romaji": "hana",
+      "meaning": "bunga",
+      "x": 30, "y": 38, "w": 18, "h": 10
+    },
+    {
+      "id": "kotak_surat",
+      "kanji": "郵便受け",
+      "hiragana": "ゆうびんうけ",
+      "romaji": "yuubinuke",
+      "meaning": "kotak surat",
+      "x": 54, "y": 20, "w": 8, "h": 16
+    },
+    {
+      "id": "sepeda",
+      "kanji": "自転車",
+      "hiragana": "じてんしゃ",
+      "romaji": "jitensha",
+      "meaning": "sepeda",
+      "x": 70, "y": 24, "w": 22, "h": 16
+    }
+  ]
+}

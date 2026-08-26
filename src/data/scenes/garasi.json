@@ -1,0 +1,58 @@
+{
+  "id": "garasi",
+  "title": "Garasi",
+  "titleJa": "ガレージ",
+  "level": 4,
+  "category": "luar-rumah",
+  "description": "Sebutkan nama benda-benda di garasi dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "rak",
+      "kanji": "棚",
+      "hiragana": "たな",
+      "romaji": "tana",
+      "meaning": "rak",
+      "x": 2, "y": 2, "w": 96, "h": 9
+    },
+    {
+      "id": "mobil",
+      "kanji": "車",
+      "hiragana": "くるま",
+      "romaji": "kuruma",
+      "meaning": "mobil",
+      "x": 6, "y": 14, "w": 48, "h": 32
+    },
+    {
+      "id": "motor",
+      "kanji": "バイク",
+      "hiragana": "ばいく",
+      "romaji": "baiku",
+      "meaning": "motor",
+      "x": 62, "y": 16, "w": 30, "h": 28
+    },
+    {
+      "id": "ban",
+      "kanji": "タイヤ",
+      "hiragana": "たいや",
+      "romaji": "taiya",
+      "meaning": "ban",
+      "x": 64, "y": 46, "w": 14, "h": 10
+    },
+    {
+      "id": "perkakas",
+      "kanji": "工具箱",
+      "hiragana": "こうぐばこ",
+      "romaji": "kougubako",
+      "meaning": "kotak perkakas",
+      "x": 4, "y": 48, "w": 16, "h": 10
+    },
+    {
+      "id": "helm",
+      "kanji": "ヘルメット",
+      "hiragana": "へるめっと",
+      "romaji": "herumetto",
+      "meaning": "helm",
+      "x": 24, "y": 50, "w": 12, "h": 8
+    }
+  ]
+}

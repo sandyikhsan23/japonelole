@@ -1,0 +1,58 @@
+{
+  "id": "taman",
+  "title": "Taman",
+  "titleJa": "公園",
+  "level": 5,
+  "category": "publik",
+  "description": "Sebutkan nama benda-benda di taman dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "pohon",
+      "kanji": "木",
+      "hiragana": "き",
+      "romaji": "ki",
+      "meaning": "pohon",
+      "x": 2, "y": 2, "w": 20, "h": 30
+    },
+    {
+      "id": "bangku",
+      "kanji": "ベンチ",
+      "hiragana": "べんち",
+      "romaji": "benchi",
+      "meaning": "bangku taman",
+      "x": 26, "y": 30, "w": 20, "h": 10
+    },
+    {
+      "id": "ayunan",
+      "kanji": "ブランコ",
+      "hiragana": "ぶらんこ",
+      "romaji": "buranko",
+      "meaning": "ayunan",
+      "x": 50, "y": 2, "w": 20, "h": 30
+    },
+    {
+      "id": "perosotan",
+      "kanji": "滑り台",
+      "hiragana": "すべりだい",
+      "romaji": "suberidai",
+      "meaning": "perosotan",
+      "x": 74, "y": 4, "w": 22, "h": 28
+    },
+    {
+      "id": "kolam",
+      "kanji": "池",
+      "hiragana": "いけ",
+      "romaji": "ike",
+      "meaning": "kolam",
+      "x": 4, "y": 38, "w": 30, "h": 18
+    },
+    {
+      "id": "air_mancur",
+      "kanji": "噴水",
+      "hiragana": "ふんすい",
+      "romaji": "funsui",
+      "meaning": "air mancur",
+      "x": 40, "y": 38, "w": 24, "h": 18
+    }
+  ]
+}

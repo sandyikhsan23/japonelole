@@ -1,0 +1,90 @@
+{
+  "id": "anggota-tubuh",
+  "title": "Anggota Tubuh",
+  "titleJa": "体の部分",
+  "level": 1,
+  "category": "tubuh",
+  "description": "Sebutkan nama bagian tubuh secara detail dalam bahasa Jepang, dari wajah sampai kaki, tahap demi tahap.",
+  "stages": [
+    {
+      "image": "/scenes/level1.jpg",
+      "items": [
+        { "id": "kepala", "kanji": "頭", "hiragana": "あたま", "romaji": "atama", "meaning": "kepala", "x": 20, "y": 0, "w": 60, "h": 100, "labelX": 8, "labelY": 8 },
+        { "id": "rambut", "kanji": "髪", "hiragana": "かみ", "romaji": "kami", "meaning": "rambut", "x": 30, "y": 0, "w": 45, "h": 20 },
+        { "id": "dahi", "kanji": "額", "hiragana": "ひたい", "romaji": "hitai", "meaning": "dahi", "x": 38, "y": 14, "w": 24, "h": 10 },
+        { "id": "alis", "kanji": "眉毛", "hiragana": "まゆげ", "romaji": "mayuge", "meaning": "alis", "x": 36, "y": 26, "w": 30, "h": 5 },
+        { "id": "mata", "kanji": "目", "hiragana": "め", "romaji": "me", "meaning": "mata", "x": 38, "y": 32, "w": 28, "h": 6, "labelX": 44, "labelY": 35 },
+        { "id": "bulu-mata", "kanji": "まつ毛", "hiragana": "まつげ", "romaji": "matsuge", "meaning": "bulu mata", "x": 39, "y": 33, "w": 26, "h": 3, "labelX": 60, "labelY": 32 },
+        { "id": "telinga", "kanji": "耳", "hiragana": "みみ", "romaji": "mimi", "meaning": "telinga", "x": 27, "y": 36, "w": 10, "h": 13 },
+        { "id": "hidung", "kanji": "鼻", "hiragana": "はな", "romaji": "hana", "meaning": "hidung", "x": 44, "y": 38, "w": 12, "h": 20 },
+        { "id": "pipi", "kanji": "頬", "hiragana": "ほほ", "romaji": "hoho", "meaning": "pipi", "x": 30, "y": 45, "w": 20, "h": 15 },
+        { "id": "mulut", "kanji": "口", "hiragana": "くち", "romaji": "kuchi", "meaning": "mulut", "x": 42, "y": 68, "w": 16, "h": 6, "labelX": 40, "labelY": 70 },
+        { "id": "gigi", "kanji": "歯", "hiragana": "は", "romaji": "ha", "meaning": "gigi", "x": 44, "y": 69, "w": 12, "h": 3, "labelX": 50, "labelY": 66 },
+        { "id": "bibir", "kanji": "唇", "hiragana": "くちびる", "romaji": "kuchibiru", "meaning": "bibir", "x": 42, "y": 67, "w": 16, "h": 7, "labelX": 60, "labelY": 71 },
+        { "id": "dagu", "kanji": "顎", "hiragana": "あご", "romaji": "ago", "meaning": "dagu", "x": 42, "y": 80, "w": 16, "h": 8 },
+        { "id": "leher", "kanji": "首", "hiragana": "くび", "romaji": "kubi", "meaning": "leher", "x": 35, "y": 90, "w": 30, "h": 10 }
+      ]
+    },
+    {
+      "image": "/scenes/level2.jpg",
+      "items": [
+        { "id": "badan", "kanji": "体", "hiragana": "からだ", "romaji": "karada", "meaning": "badan", "x": 15, "y": 5, "w": 70, "h": 90, "labelX": 68, "labelY": 16 },
+        { "id": "bahu", "kanji": "肩", "hiragana": "かた", "romaji": "kata", "meaning": "bahu", "x": 22, "y": 14, "w": 18, "h": 10 },
+        { "id": "dada", "kanji": "胸", "hiragana": "むね", "romaji": "mune", "meaning": "dada", "x": 32, "y": 25, "w": 36, "h": 18 },
+        { "id": "perut", "kanji": "お腹", "hiragana": "おなか", "romaji": "onaka", "meaning": "perut", "x": 35, "y": 45, "w": 30, "h": 20 },
+        { "id": "pusar", "kanji": "おへそ", "hiragana": "おへそ", "romaji": "oheso", "meaning": "pusar", "x": 46, "y": 58, "w": 8, "h": 6 },
+        { "id": "lengan-atas", "kanji": "二の腕", "hiragana": "にのうで", "romaji": "ninoude", "meaning": "lengan atas", "x": 18, "y": 30, "w": 14, "h": 20 },
+        { "id": "siku", "kanji": "肘", "hiragana": "ひじ", "romaji": "hiji", "meaning": "siku", "x": 12, "y": 55, "w": 10, "h": 8 },
+        { "id": "lengan", "kanji": "腕", "hiragana": "うで", "romaji": "ude", "meaning": "lengan", "x": 8, "y": 65, "w": 14, "h": 20 },
+        { "id": "pergelangan-tangan", "kanji": "手首", "hiragana": "てくび", "romaji": "tekubi", "meaning": "pergelangan tangan", "x": 10, "y": 85, "w": 10, "h": 6 },
+        { "id": "tangan", "kanji": "手", "hiragana": "て", "romaji": "te", "meaning": "tangan", "x": 5, "y": 90, "w": 15, "h": 10 }
+      ]
+    },
+    {
+      "image": "/scenes/level2tambahan.jpg",
+      "items": [
+        { "id": "punggung", "kanji": "背中", "hiragana": "せなか", "romaji": "senaka", "meaning": "punggung", "x": 25, "y": 15, "w": 55, "h": 70 }
+      ]
+    },
+    {
+      "image": "/scenes/level3.jpg",
+      "items": [
+        { "id": "telapak-tangan", "kanji": "手のひら", "hiragana": "てのひら", "romaji": "tenohira", "meaning": "telapak tangan", "x": 32, "y": 45, "w": 30, "h": 35 },
+        { "id": "jari-tangan", "kanji": "指", "hiragana": "ゆび", "romaji": "yubi", "meaning": "jari tangan", "x": 28, "y": 0, "w": 48, "h": 45 }
+      ]
+    },
+    {
+      "image": "/scenes/level3tambahan.jpg",
+      "items": [
+        { "id": "kuku", "kanji": "爪", "hiragana": "つめ", "romaji": "tsume", "meaning": "kuku", "x": 28, "y": 0, "w": 55, "h": 15 }
+      ]
+    },
+    {
+      "image": "/scenes/level4.jpg",
+      "items": [
+        { "id": "pinggang", "kanji": "腰", "hiragana": "こし", "romaji": "koshi", "meaning": "pinggang", "x": 35, "y": 0, "w": 30, "h": 12 },
+        { "id": "kaki", "kanji": "足", "hiragana": "あし", "romaji": "ashi", "meaning": "kaki", "x": 30, "y": 10, "w": 40, "h": 88, "labelX": 88, "labelY": 30 },
+        { "id": "lutut", "kanji": "膝", "hiragana": "ひざ", "romaji": "hiza", "meaning": "lutut", "x": 38, "y": 48, "w": 24, "h": 10 },
+        { "id": "tulang-kering", "kanji": "すね", "hiragana": "すね", "romaji": "sune", "meaning": "tulang kering", "x": 38, "y": 60, "w": 24, "h": 25 },
+        { "id": "pergelangan-kaki", "kanji": "足首", "hiragana": "あしくび", "romaji": "ashikubi", "meaning": "pergelangan kaki", "x": 38, "y": 88, "w": 24, "h": 8 },
+        { "id": "tulang", "kanji": "骨", "hiragana": "ほね", "romaji": "hone", "meaning": "tulang", "x": 40, "y": 48, "w": 20, "h": 35, "labelX": 12, "labelY": 55 }
+      ]
+    },
+    {
+      "image": "/scenes/level5.jpg",
+      "items": [
+        { "id": "telapak-kaki", "kanji": "足の裏", "hiragana": "あしのうら", "romaji": "ashi no ura", "meaning": "telapak kaki", "x": 25, "y": 30, "w": 55, "h": 45 },
+        { "id": "jari-kaki", "kanji": "足の指", "hiragana": "あしのゆび", "romaji": "ashi no yubi", "meaning": "jari kaki", "x": 25, "y": 0, "w": 55, "h": 25 },
+        { "id": "tumit", "kanji": "かかと", "hiragana": "かかと", "romaji": "kakato", "meaning": "tumit", "x": 25, "y": 80, "w": 55, "h": 20 }
+      ]
+    },
+    {
+      "image": "/scenes/level6.jpg",
+      "items": [
+        { "id": "pantat", "kanji": "尻", "hiragana": "しり", "romaji": "shiri", "meaning": "pantat", "x": 30, "y": 5, "w": 40, "h": 25 },
+        { "id": "paha", "kanji": "太もも", "hiragana": "ふともも", "romaji": "futomomo", "meaning": "paha", "x": 28, "y": 30, "w": 44, "h": 25 },
+        { "id": "betis", "kanji": "ふくらはぎ", "hiragana": "ふくらはぎ", "romaji": "fukurahagi", "meaning": "betis", "x": 30, "y": 60, "w": 40, "h": 30 }
+      ]
+    }
+  ]
+}

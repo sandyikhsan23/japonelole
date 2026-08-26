@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1b2340;
+
+  --navy: #1b2340;
+  --navy-2: #2c3868;
+  --navy-soft: #eef0f7;
+  --maroon: #7a1f2b;
+  --maroon-2: #9c2b3a;
+  --maroon-soft: #f7e9ea;
+  --cream: #faf9f6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-navy-2: var(--navy-2);
+  --color-navy-soft: var(--navy-soft);
+  --color-maroon: var(--maroon);
+  --color-maroon-2: var(--maroon-2);
+  --color-maroon-soft: var(--maroon-soft);
+  --color-cream: var(--cream);
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-logo: var(--font-logo);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

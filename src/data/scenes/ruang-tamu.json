@@ -1,0 +1,66 @@
+{
+  "id": "ruang-tamu",
+  "title": "Ruang Tamu",
+  "titleJa": "リビング",
+  "level": 3,
+  "category": "dalam-rumah",
+  "description": "Sebutkan nama benda-benda di ruang tamu dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "televisi",
+      "kanji": "テレビ",
+      "hiragana": "てれび",
+      "romaji": "terebi",
+      "meaning": "televisi",
+      "x": 30, "y": 3, "w": 32, "h": 16
+    },
+    {
+      "id": "jam_dinding",
+      "kanji": "時計",
+      "hiragana": "とけい",
+      "romaji": "tokei",
+      "meaning": "jam dinding",
+      "x": 74, "y": 2, "w": 13, "h": 13
+    },
+    {
+      "id": "rak_buku",
+      "kanji": "本棚",
+      "hiragana": "ほんだな",
+      "romaji": "hondana",
+      "meaning": "rak buku",
+      "x": 2, "y": 3, "w": 15, "h": 30
+    },
+    {
+      "id": "meja",
+      "kanji": "テーブル",
+      "hiragana": "てーぶる",
+      "romaji": "teeburu",
+      "meaning": "meja",
+      "x": 30, "y": 32, "w": 24, "h": 9
+    },
+    {
+      "id": "sofa",
+      "kanji": "ソファー",
+      "hiragana": "そふぁー",
+      "romaji": "sofaa",
+      "meaning": "sofa",
+      "x": 20, "y": 42, "w": 46, "h": 18
+    },
+    {
+      "id": "karpet",
+      "kanji": "カーペット",
+      "hiragana": "かーぺっと",
+      "romaji": "kaapetto",
+      "meaning": "karpet",
+      "x": 16, "y": 52, "w": 54, "h": 7
+    },
+    {
+      "id": "tanaman_hias",
+      "kanji": "植木",
+      "hiragana": "うえき",
+      "romaji": "ueki",
+      "meaning": "tanaman hias",
+      "x": 70, "y": 30, "w": 14, "h": 26
+    }
+  ]
+}

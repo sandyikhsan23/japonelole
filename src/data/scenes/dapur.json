@@ -1,0 +1,66 @@
+{
+  "id": "dapur",
+  "title": "Dapur",
+  "titleJa": "台所",
+  "level": 3,
+  "category": "dalam-rumah",
+  "description": "Sebutkan nama benda-benda di dapur dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "kulkas",
+      "kanji": "冷蔵庫",
+      "hiragana": "れいぞうこ",
+      "romaji": "reizouko",
+      "meaning": "kulkas",
+      "x": 2, "y": 2, "w": 18, "h": 40
+    },
+    {
+      "id": "lemari_dapur",
+      "kanji": "食器棚",
+      "hiragana": "しょっきだな",
+      "romaji": "shokkidana",
+      "meaning": "lemari dapur",
+      "x": 45, "y": 2, "w": 30, "h": 14
+    },
+    {
+      "id": "kompor",
+      "kanji": "コンロ",
+      "hiragana": "こんろ",
+      "romaji": "konro",
+      "meaning": "kompor",
+      "x": 34, "y": 34, "w": 24, "h": 16
+    },
+    {
+      "id": "panci",
+      "kanji": "鍋",
+      "hiragana": "なべ",
+      "romaji": "nabe",
+      "meaning": "panci",
+      "x": 38, "y": 26, "w": 10, "h": 8
+    },
+    {
+      "id": "wastafel_dapur",
+      "kanji": "流し台",
+      "hiragana": "ながしだい",
+      "romaji": "nagashidai",
+      "meaning": "wastafel dapur",
+      "x": 62, "y": 34, "w": 22, "h": 14
+    },
+    {
+      "id": "piring",
+      "kanji": "皿",
+      "hiragana": "さら",
+      "romaji": "sara",
+      "meaning": "piring",
+      "x": 66, "y": 22, "w": 8, "h": 6
+    },
+    {
+      "id": "gelas",
+      "kanji": "コップ",
+      "hiragana": "こっぷ",
+      "romaji": "koppu",
+      "meaning": "gelas",
+      "x": 76, "y": 22, "w": 6, "h": 8
+    }
+  ]
+}

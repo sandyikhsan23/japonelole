@@ -1,0 +1,66 @@
+{
+  "id": "kamar-mandi",
+  "title": "Kamar Mandi",
+  "titleJa": "お風呂場",
+  "level": 3,
+  "category": "dalam-rumah",
+  "description": "Sebutkan nama benda-benda di kamar mandi dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "cermin",
+      "kanji": "鏡",
+      "hiragana": "かがみ",
+      "romaji": "kagami",
+      "meaning": "cermin",
+      "x": 34, "y": 3, "w": 32, "h": 13
+    },
+    {
+      "id": "wastafel",
+      "kanji": "洗面台",
+      "hiragana": "せんめんだい",
+      "romaji": "senmendai",
+      "meaning": "wastafel",
+      "x": 32, "y": 17, "w": 28, "h": 13
+    },
+    {
+      "id": "sabun",
+      "kanji": "石鹸",
+      "hiragana": "せっけん",
+      "romaji": "sekken",
+      "meaning": "sabun",
+      "x": 47, "y": 12, "w": 6, "h": 5
+    },
+    {
+      "id": "handuk",
+      "kanji": "タオル",
+      "hiragana": "たおる",
+      "romaji": "taoru",
+      "meaning": "handuk",
+      "x": 4, "y": 4, "w": 9, "h": 20
+    },
+    {
+      "id": "shower",
+      "kanji": "シャワー",
+      "hiragana": "しゃわー",
+      "romaji": "shawaa",
+      "meaning": "shower",
+      "x": 68, "y": 3, "w": 28, "h": 17
+    },
+    {
+      "id": "bak_mandi",
+      "kanji": "浴槽",
+      "hiragana": "よくそう",
+      "romaji": "yokusou",
+      "meaning": "bak mandi",
+      "x": 68, "y": 22, "w": 28, "h": 28
+    },
+    {
+      "id": "toilet",
+      "kanji": "トイレ",
+      "hiragana": "といれ",
+      "romaji": "toire",
+      "meaning": "toilet",
+      "x": 6, "y": 30, "w": 20, "h": 22
+    }
+  ]
+}

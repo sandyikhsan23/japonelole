@@ -1,0 +1,58 @@
+{
+  "id": "rumah-sakit",
+  "title": "Rumah Sakit",
+  "titleJa": "病院",
+  "level": 5,
+  "category": "publik",
+  "description": "Sebutkan nama benda dan orang di rumah sakit dalam bahasa Jepang.",
+  "objects": [
+    {
+      "id": "ranjang",
+      "kanji": "ベッド",
+      "hiragana": "べっど",
+      "romaji": "beddo",
+      "meaning": "ranjang",
+      "x": 6, "y": 10, "w": 40, "h": 26
+    },
+    {
+      "id": "dokter",
+      "kanji": "医者",
+      "hiragana": "いしゃ",
+      "romaji": "isha",
+      "meaning": "dokter",
+      "x": 54, "y": 6, "w": 16, "h": 30
+    },
+    {
+      "id": "perawat",
+      "kanji": "看護師",
+      "hiragana": "かんごし",
+      "romaji": "kangoshi",
+      "meaning": "perawat",
+      "x": 74, "y": 6, "w": 16, "h": 30
+    },
+    {
+      "id": "obat",
+      "kanji": "薬",
+      "hiragana": "くすり",
+      "romaji": "kusuri",
+      "meaning": "obat",
+      "x": 10, "y": 42, "w": 12, "h": 10
+    },
+    {
+      "id": "kursi_roda",
+      "kanji": "車椅子",
+      "hiragana": "くるまいす",
+      "romaji": "kurumaisu",
+      "meaning": "kursi roda",
+      "x": 30, "y": 42, "w": 20, "h": 14
+    },
+    {
+      "id": "masker",
+      "kanji": "マスク",
+      "hiragana": "ますく",
+      "romaji": "masuku",
+      "meaning": "masker",
+      "x": 56, "y": 42, "w": 10, "h": 8
+    }
+  ]
+}
