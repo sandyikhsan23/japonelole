@@ -129,9 +129,11 @@ function StagedRoomScene({
       >
         <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="absolute inset-0 h-full w-full">
           <defs>
-            <filter id={filterId}>
-              <feColorMatrix type="saturate" values="0" />
-            </filter>
+            {!stage.imageGray && (
+              <filter id={filterId}>
+                <feColorMatrix type="saturate" values="0" />
+              </filter>
+            )}
             <mask id={maskId} maskContentUnits="objectBoundingBox" maskUnits="objectBoundingBox">
               <rect x="0" y="0" width="1" height="1" fill="white" />
               {!stageComplete &&
@@ -158,13 +160,13 @@ function StagedRoomScene({
           />
           {!stageComplete && (
             <image
-              href={stage.image}
+              href={stage.imageGray ?? stage.image}
               x="0"
               y="0"
               width="100"
               height="100"
               preserveAspectRatio="none"
-              filter={`url(#${filterId})`}
+              filter={stage.imageGray ? undefined : `url(#${filterId})`}
               mask={`url(#${maskId})`}
             />
           )}

@@ -23,6 +23,11 @@ export interface VocabItem {
 // Dipakai Room Coloring untuk scene yang punya ilustrasi asli (bukan kotak abstrak).
 export interface SceneStage {
   image: string;
+  // Pre-rendered grayscale counterpart of `image` (same composition/coordinates).
+  // When provided, Room Coloring masks between the two images directly instead
+  // of applying an SVG filter at runtime (filter+mask together render
+  // unreliably on some mobile browsers, notably Safari).
+  imageGray?: string;
   items: VocabItem[];
 }
 

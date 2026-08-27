@@ -5,62 +5,29 @@
   "level": 3,
   "category": "dalam-rumah",
   "description": "Sebutkan nama benda-benda di kamar mandi dalam bahasa Jepang.",
-  "objects": [
+  "stages": [
     {
-      "id": "cermin",
-      "kanji": "鏡",
-      "hiragana": "かがみ",
-      "romaji": "kagami",
-      "meaning": "cermin",
-      "x": 34, "y": 3, "w": 32, "h": 13
-    },
-    {
-      "id": "wastafel",
-      "kanji": "洗面台",
-      "hiragana": "せんめんだい",
-      "romaji": "senmendai",
-      "meaning": "wastafel",
-      "x": 32, "y": 17, "w": 28, "h": 13
-    },
-    {
-      "id": "sabun",
-      "kanji": "石鹸",
-      "hiragana": "せっけん",
-      "romaji": "sekken",
-      "meaning": "sabun",
-      "x": 47, "y": 12, "w": 6, "h": 5
-    },
-    {
-      "id": "handuk",
-      "kanji": "タオル",
-      "hiragana": "たおる",
-      "romaji": "taoru",
-      "meaning": "handuk",
-      "x": 4, "y": 4, "w": 9, "h": 20
-    },
-    {
-      "id": "shower",
-      "kanji": "シャワー",
-      "hiragana": "しゃわー",
-      "romaji": "shawaa",
-      "meaning": "shower",
-      "x": 68, "y": 3, "w": 28, "h": 17
-    },
-    {
-      "id": "bak_mandi",
-      "kanji": "浴槽",
-      "hiragana": "よくそう",
-      "romaji": "yokusou",
-      "meaning": "bak mandi",
-      "x": 68, "y": 22, "w": 28, "h": 28
-    },
-    {
-      "id": "toilet",
-      "kanji": "トイレ",
-      "hiragana": "といれ",
-      "romaji": "toire",
-      "meaning": "toilet",
-      "x": 6, "y": 30, "w": 20, "h": 22
+      "image": "/dalam-rumah/kamarmandi.jpg",
+      "imageGray": "/dalam-rumah/kamarmandi-desaturated.png",
+      "items": [
+        { "id": "cermin", "kanji": "鏡", "hiragana": "かがみ", "romaji": "kagami", "meaning": "cermin", "x": 13, "y": 15, "w": 14, "h": 32 },
+        { "id": "wastafel", "kanji": "洗面台", "hiragana": "せんめんだい", "romaji": "senmendai", "meaning": "wastafel", "x": 13, "y": 42, "w": 20, "h": 28 },
+        { "id": "keran", "kanji": "蛇口", "hiragana": "じゃぐち", "romaji": "jaguchi", "meaning": "keran", "x": 19, "y": 48, "w": 5, "h": 8 },
+        { "id": "sabun", "kanji": "石鹸", "hiragana": "せっけん", "romaji": "sekken", "meaning": "sabun", "x": 15, "y": 50, "w": 5, "h": 5 },
+        { "id": "sikat-gigi", "kanji": "歯ブラシ", "hiragana": "はぶらし", "romaji": "haburashi", "meaning": "sikat gigi", "x": 25, "y": 48, "w": 5, "h": 8 },
+        { "id": "pasta-gigi", "kanji": "歯磨き粉", "hiragana": "はみがきこ", "romaji": "hamigakiko", "meaning": "pasta gigi", "x": 27, "y": 50, "w": 3, "h": 5 },
+        { "id": "sisir", "kanji": "くし", "hiragana": "くし", "romaji": "kushi", "meaning": "sisir", "x": 30, "y": 52, "w": 5, "h": 4 },
+        { "id": "toilet", "kanji": "トイレ", "hiragana": "といれ", "romaji": "toire", "meaning": "toilet", "x": 38, "y": 55, "w": 15, "h": 30 },
+        { "id": "sikat-toilet", "kanji": "トイレブラシ", "hiragana": "といれぶらし", "romaji": "toire burashi", "meaning": "sikat toilet", "x": 35, "y": 72, "w": 4, "h": 15 },
+        { "id": "tisu-toilet", "kanji": "トイレットペーパー", "hiragana": "といれっとぺーぱー", "romaji": "toiretto peepaa", "meaning": "tisu toilet", "x": 48, "y": 58, "w": 6, "h": 6 },
+        { "id": "shower", "kanji": "シャワー", "hiragana": "しゃわー", "romaji": "shawaa", "meaning": "shower", "x": 75, "y": 15, "w": 8, "h": 25 },
+        { "id": "tirai-shower", "kanji": "シャワーカーテン", "hiragana": "しゃわーかーてん", "romaji": "shawaa kaaten", "meaning": "tirai shower", "x": 56, "y": 18, "w": 18, "h": 62 },
+        { "id": "bak-mandi", "kanji": "浴槽", "hiragana": "よくそう", "romaji": "yokusou", "meaning": "bak mandi", "x": 74, "y": 62, "w": 26, "h": 32 },
+        { "id": "gayung", "kanji": "手桶", "hiragana": "ておけ", "romaji": "teoke", "meaning": "gayung", "x": 82, "y": 60, "w": 6, "h": 6 },
+        { "id": "shampo", "kanji": "シャンプー", "hiragana": "しゃんぷー", "romaji": "shanpuu", "meaning": "shampo", "x": 88, "y": 52, "w": 5, "h": 10 },
+        { "id": "handuk", "kanji": "タオル", "hiragana": "たおる", "romaji": "taoru", "meaning": "handuk", "x": 88, "y": 18, "w": 12, "h": 15 },
+        { "id": "lubang-pembuangan", "kanji": "排水口", "hiragana": "はいすいこう", "romaji": "haisuikou", "meaning": "lubang pembuangan", "x": 33, "y": 88, "w": 4, "h": 6 }
+      ]
     }
   ]
 }

@@ -57,14 +57,18 @@ export function SceneSession({ scene, loggedIn }: { scene: Scene; loggedIn: bool
             2. Main
           </span>
         </div>
-        {phase !== "study" && phase !== "menu" && (
-          <button
-            onClick={() => setPhase("menu")}
-            className="text-xs text-navy/40 hover:text-maroon"
-          >
-            ← Mode lain
-          </button>
-        )}
+        <div className="flex items-center gap-3 text-xs text-navy/40">
+          {phase !== "study" && (
+            <button onClick={() => setPhase("study")} className="hover:text-maroon">
+              ← Materi
+            </button>
+          )}
+          {phase !== "study" && phase !== "menu" && (
+            <button onClick={() => setPhase("menu")} className="hover:text-maroon">
+              ← Mode lain
+            </button>
+          )}
+        </div>
       </div>
 
       {phase === "study" && (
