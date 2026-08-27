@@ -1,13 +1,25 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+
+const TOOLTIP_WIDTH = 224; // matches w-56
 
 export function InfoTooltip({ text }: { text: string }) {
   const [open, setOpen] = useState(false);
+  const [align, setAlign] = useState<"left" | "right">("right");
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (!open || !buttonRef.current) return;
+    const rect = buttonRef.current.getBoundingClientRect();
+    const spaceToRight = window.innerWidth - rect.left;
+    setAlign(spaceToRight >= TOOLTIP_WIDTH + 16 ? "left" : "right");
+  }, [open]);
 
   return (
     <div className="relative inline-block shrink-0">
       <button
+        ref={buttonRef}
         type="button"
         onMouseEnter={() => setOpen(true)}
         onMouseLeave={() => setOpen(false)}
@@ -18,7 +30,11 @@ export function InfoTooltip({ text }: { text: string }) {
         i
       </button>
       {open && (
-        <div className="absolute right-0 top-6 z-10 w-56 rounded-lg border border-navy/10 bg-white p-2.5 text-xs leading-relaxed text-navy/70 shadow-lg">
+        <div
+          className={`absolute top-6 z-10 w-56 max-w-[85vw] rounded-lg border border-navy/10 bg-white p-2.5 text-xs leading-relaxed text-navy/70 shadow-lg ${
+            align === "left" ? "left-0" : "right-0"
+          }`}
+        >
           {text}
         </div>
       )}

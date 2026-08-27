@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { scenesByCategory } from "@/data/scenes";
 import { Navbar } from "@/components/Navbar";
+import { SceneProgressCard } from "@/components/SceneProgressCard";
 
 type ProgressRow = {
   scene_id: string;
@@ -91,30 +91,15 @@ export default async function DashboardPage() {
                 </span>
               </div>
               <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
-                {group.sceneStats.map(({ scene, total, mastered, isComplete }) => {
-                  const pct = total > 0 ? Math.round((mastered / total) * 100) : 0;
-                  return (
-                    <li key={scene.id}>
-                      <Link
-                        href={`/belajar/${scene.id}`}
-                        className="block rounded-xl border border-navy/10 px-3.5 py-2.5 lg:px-4 lg:py-3 hover:border-maroon/40 transition-colors h-full"
-                      >
-                        <div className="flex items-center justify-between gap-2 mb-1.5">
-                          <p className="font-medium text-navy text-sm leading-tight truncate">
-                            {scene.title}
-                          </p>
-                          {isComplete && <span className="shrink-0 text-xs text-maroon">✓</span>}
-                        </div>
-                        <div className="h-1.5 rounded-full bg-navy-soft overflow-hidden mb-1">
-                          <div className="h-full bg-maroon rounded-full" style={{ width: `${pct}%` }} />
-                        </div>
-                        <p className="text-[11px] text-navy/40">
-                          {mastered}/{total} kosakata
-                        </p>
-                      </Link>
-                    </li>
-                  );
-                })}
+                {group.sceneStats.map(({ scene, total, mastered, isComplete }) => (
+                  <SceneProgressCard
+                    key={scene.id}
+                    scene={scene}
+                    total={total}
+                    mastered={mastered}
+                    isComplete={isComplete}
+                  />
+                ))}
               </ul>
             </section>
           ))}

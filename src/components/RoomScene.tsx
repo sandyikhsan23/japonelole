@@ -37,7 +37,7 @@ function AnswerForm({
         placeholder={placeholder}
         className={`flex-1 rounded-lg border px-3.5 py-2.5 text-sm outline-none transition-colors ${
           feedback === "correct"
-            ? "border-maroon bg-maroon-soft"
+            ? "border-green-500 bg-green-50"
             : feedback === "wrong"
             ? "border-red-400 bg-red-50"
             : "border-navy/15 focus:border-navy"
@@ -208,7 +208,7 @@ function StagedRoomScene({
             onSubmit={handleSubmit}
           />
           {feedback === "correct" && lastCorrect && (
-            <p className="mt-1.5 text-xs text-maroon">✓ {labelFor(lastCorrect, scriptMode)}</p>
+            <p className="mt-1.5 text-xs text-green-600">✓ {labelFor(lastCorrect, scriptMode)}</p>
           )}
           {feedback === "wrong" && (
             <p className="mt-1.5 text-xs text-red-500">Belum tepat, coba lagi.</p>

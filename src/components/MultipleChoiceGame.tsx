@@ -102,7 +102,7 @@ export function MultipleChoiceGame({
               disabled={picked !== null}
               className={`rounded-lg border px-3 py-3 text-sm font-medium text-left transition-colors ${
                 showState && isCorrect
-                  ? "bg-maroon-soft border-maroon text-maroon"
+                  ? "bg-green-50 border-green-500 text-green-700"
                   : showState && isPicked
                   ? "bg-red-50 border-red-300 text-red-500"
                   : "border-navy/15 text-navy hover:border-navy/40"

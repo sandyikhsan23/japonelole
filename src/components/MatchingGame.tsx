@@ -87,7 +87,7 @@ export function MatchingGame({
               disabled={isMatched}
               className={`rounded-lg border px-2.5 py-3 text-xs sm:text-sm font-medium text-center transition-colors min-h-[52px] ${
                 isMatched
-                  ? "bg-maroon-soft border-maroon text-maroon"
+                  ? "bg-green-50 border-green-500 text-green-700"
                   : wrongPair.includes(card.key)
                   ? "bg-red-50 border-red-300 text-red-500"
                   : isSelected
