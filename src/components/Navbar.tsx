@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { AuthWidget } from "./AuthWidget";
+import { InstallAppButton } from "./InstallAppButton";
 
 export async function Navbar() {
   const supabase = await createClient();
@@ -18,7 +19,10 @@ export async function Navbar() {
           Japon<span className="text-maroon">elole</span>
         </Link>
 
-        <AuthWidget user={user} />
+        <div className="flex items-center gap-2">
+          <InstallAppButton />
+          <AuthWidget user={user} />
+        </div>
       </div>
     </header>
   );
