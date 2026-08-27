@@ -9,12 +9,10 @@ export function SceneProgressCard({
   scene,
   total,
   mastered,
-  isComplete,
 }: {
   scene: Scene;
   total: number;
   mastered: number;
-  isComplete: boolean;
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [confirming, setConfirming] = useState(false);
@@ -43,7 +41,6 @@ export function SceneProgressCard({
           <p className="font-medium text-navy text-sm leading-tight truncate pr-5">
             {scene.title}
           </p>
-          {isComplete && <span className="shrink-0 text-xs text-maroon">✓</span>}
         </div>
         <div className="h-1.5 rounded-full bg-navy-soft overflow-hidden mb-1">
           <div className="h-full bg-maroon rounded-full" style={{ width: `${pct}%` }} />
