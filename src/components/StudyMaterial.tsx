@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import type { Scene, ScriptMode } from "@/types/vocab";
 import { speak } from "@/lib/vocab";
 
@@ -12,6 +13,17 @@ export function StudyMaterial({
   scriptMode: ScriptMode;
   onStart: () => void;
 }) {
+  const startButtonRef = useRef<HTMLButtonElement>(null);
+  const [buttonVisible, setButtonVisible] = useState(true);
+
+  useEffect(() => {
+    const el = startButtonRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(([entry]) => setButtonVisible(entry.isIntersecting));
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div>
       <p className="text-sm text-navy/60 mb-3">
@@ -50,16 +62,19 @@ export function StudyMaterial({
       </ul>
 
       <button
+        ref={startButtonRef}
         onClick={onStart}
         className="mt-4 w-full rounded-xl bg-maroon text-white py-3 font-medium hover:bg-maroon-2 transition-colors"
       >
         Mulai Game →
       </button>
 
-      <div className="hidden lg:flex fixed left-0 top-0 h-full w-[calc(50%-24rem)] flex-col items-center justify-center gap-1 pointer-events-none text-navy/40">
-        <span className="text-[11px] font-medium tracking-wide">Mainkan game</span>
-        <span className="animate-bounce text-xl leading-none">↓</span>
-      </div>
+      {!buttonVisible && (
+        <div className="hidden lg:flex fixed left-0 top-0 h-full w-[calc(50%-24rem)] flex-col items-center justify-center gap-1 pointer-events-none text-navy/40">
+          <span className="text-[11px] font-medium tracking-wide">Mainkan game</span>
+          <span className="animate-bounce text-xl leading-none">↓</span>
+        </div>
+      )}
     </div>
   );
 }
