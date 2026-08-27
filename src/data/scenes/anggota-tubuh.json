@@ -9,7 +9,7 @@
     {
       "image": "/scenes/level1.jpg",
       "items": [
-        { "id": "kepala", "kanji": "頭", "hiragana": "あたま", "romaji": "atama", "meaning": "kepala", "x": 20, "y": 0, "w": 60, "h": 100, "labelX": 8, "labelY": 8 },
+        { "id": "kepala", "kanji": "頭", "hiragana": "あたま", "romaji": "atama", "meaning": "kepala", "x": 20, "y": 0, "w": 60, "h": 100, "labelX": 73, "labelY": 40 },
         { "id": "rambut", "kanji": "髪", "hiragana": "かみ", "romaji": "kami", "meaning": "rambut", "x": 30, "y": 0, "w": 45, "h": 20 },
         { "id": "dahi", "kanji": "額", "hiragana": "ひたい", "romaji": "hitai", "meaning": "dahi", "x": 38, "y": 14, "w": 24, "h": 10 },
         { "id": "alis", "kanji": "眉毛", "hiragana": "まゆげ", "romaji": "mayuge", "meaning": "alis", "x": 36, "y": 26, "w": 30, "h": 5 },
@@ -63,11 +63,11 @@
       "image": "/scenes/level4.jpg",
       "items": [
         { "id": "pinggang", "kanji": "腰", "hiragana": "こし", "romaji": "koshi", "meaning": "pinggang", "x": 35, "y": 0, "w": 30, "h": 12 },
-        { "id": "kaki", "kanji": "足", "hiragana": "あし", "romaji": "ashi", "meaning": "kaki", "x": 30, "y": 10, "w": 40, "h": 88, "labelX": 88, "labelY": 30 },
+        { "id": "kaki", "kanji": "足", "hiragana": "あし", "romaji": "ashi", "meaning": "kaki", "x": 30, "y": 10, "w": 40, "h": 88, "labelX": 45, "labelY": 25 },
         { "id": "lutut", "kanji": "膝", "hiragana": "ひざ", "romaji": "hiza", "meaning": "lutut", "x": 38, "y": 48, "w": 24, "h": 10 },
         { "id": "tulang-kering", "kanji": "すね", "hiragana": "すね", "romaji": "sune", "meaning": "tulang kering", "x": 38, "y": 60, "w": 24, "h": 25 },
         { "id": "pergelangan-kaki", "kanji": "足首", "hiragana": "あしくび", "romaji": "ashikubi", "meaning": "pergelangan kaki", "x": 38, "y": 88, "w": 24, "h": 8 },
-        { "id": "tulang", "kanji": "骨", "hiragana": "ほね", "romaji": "hone", "meaning": "tulang", "x": 40, "y": 48, "w": 20, "h": 35, "labelX": 12, "labelY": 55 }
+        { "id": "tulang", "kanji": "骨", "hiragana": "ほね", "romaji": "hone", "meaning": "tulang", "x": 40, "y": 48, "w": 20, "h": 35, "labelX": 56, "labelY": 60 }
       ]
     },
     {
